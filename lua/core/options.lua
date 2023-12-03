@@ -119,5 +119,5 @@ vim.cmd [[set iskeyword+=-]]
 vim.cmd [[set formatoptions-=cro]] -- TODO: this doesn't seem to work
 
 -- 主题
-vim.cmd[[colorscheme tokyonight-moon]]
+vim.cmd[[colorscheme tokyonight-day]]
 
