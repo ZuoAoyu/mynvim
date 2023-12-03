@@ -4,8 +4,12 @@ require("mason").setup({
           package_installed = "✓",
           package_pending = "➜",
           package_uninstalled = "✗"
-      }
-  }
+      },
+      check_outdated_packages_on_open = true,
+  },
+  github = {
+      download_url_template = "https://ghproxy.net/https://github.com/%s/releases/download/%s/%s"
+  },
 })
 
 require("mason-lspconfig").setup({
