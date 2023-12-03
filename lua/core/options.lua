@@ -104,7 +104,10 @@ opt.scrolloff = 8
 opt.sidescrolloff = 8
 
 -- the font used in graphical neovim applications
-opt.guifont = "monospace:h17"
+opt.guifont = "monospace:h14"
+
+-- 显示一条竖线
+opt.colorcolumn = "79"
 
 -- 在状态栏中以更简洁的方式显示消息
 opt.shortmess:append "c"
