@@ -32,6 +32,9 @@ opt.ignorecase = true
 -- opt.mouse:append("a")
 opt.mouse = "a"
 
+-- 关闭鼠标右键菜单
+opt.mousemodel = "extend"
+
 -- pop up menu height
 opt.pumheight = 10
 
